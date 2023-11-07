@@ -8,16 +8,16 @@ import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 // actions from habitReducer
-import { habitSelector, quoteFetchThunk, setSuggestionSelected } from "../Redux/Reducer/habitReducer";
+import { habitSelector, quoteFetchThunk, setSuggestionSelected } from "src/Redux/Reducer/habitReducer";
 
 // different Components used in homepage
 
 //for adding a new habit to list 
-import AddHabit from "../Component/AddHabit";
+import AddHabit from "src/Component/AddHabit";
 // for showing a new quote on each render 
-import Quote from "../Component/Quote";
+import Quote from "src/Component/Quote";
 // for showing list of suggested habits
-import Suggestions from "../Component/Suggestions";
+import Suggestions from "src/Component/Suggestions";
 
 
 
